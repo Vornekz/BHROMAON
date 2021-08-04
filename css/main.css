@@ -433,6 +433,9 @@ body .tourist {
   outline: none;
   text-align: center;
 }
+.bhromaon__form-search:focus {
+  border: 4px solid #60d660;
+}
 .bhromaon__form-search::-moz-placeholder {
   font-family: "JosefinSans-Light";
   font-size: calc(10px + 4 * (100vw / 1770));
@@ -470,6 +473,12 @@ body .tourist {
   width: 20px;
   fill: #fff;
   margin-left: 15px;
+}
+.bhromaon__form-button:hover {
+  color: #60d660;
+}
+.bhromaon__form-button:hover .bhromaon__form-button-svg {
+  fill: #60d660;
 }
 .bhromaon__scroll {
   margin-top: 16%;
@@ -645,6 +654,9 @@ body .tourist {
   font-size: 14px;
   text-transform: uppercase;
 }
+.menu__nav .ul-block:hover > .ul-block-link {
+  color: #60d660;
+}
 
 .choose {
   display: flex;
@@ -696,6 +708,9 @@ body .tourist {
   font-size: calc(12px + 4 * (100vw / 1770));
   text-transform: uppercase;
   color: #fff;
+}
+.choose__info-button:hover {
+  background: linear-gradient(45deg, #5474fd 60%, #496bfe 60%);
 }
 .choose__picture {
   display: flex;
@@ -837,6 +852,9 @@ body .tourist {
   font-size: calc(12px + 4 * (100vw / 1770));
   text-transform: uppercase;
   color: #fff;
+}
+.book__info-button:hover {
+  background: linear-gradient(45deg, #5474fd 60%, #496bfe 60%);
 }
 
 .book-first {

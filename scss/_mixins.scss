@@ -1,0 +1,28 @@
+@mixin sectionPadding ($top-bottomPadding, $half-contentWidth) {
+    padding: $top-bottomPadding calc(50vw - 555px);
+}
+
+@mixin backgroundCover ($url) {
+    background: $url no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin flexSetings ($flex-direction, $justify-content) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+}
+
+@mixin button {
+    &-button {
+        width: 225px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: linear-gradient(45deg, rgba(73,107,254) 40%, rgba(84,116,253) 40%);
+        font-size: calc(12px + 4 * (100vw / 1770));
+        text-transform: uppercase;
+        color: #fff;
+    }
+}

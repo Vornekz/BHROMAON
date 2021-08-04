@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site for travel to different parts of the world">
+    <meta name="keywords" content="Go on a journey">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="/img/Favicon.png" type="image/png"/>
     <title>BHROMAON</title>
 </head>
 <body>
@@ -16,10 +19,10 @@
             Safe travel anywhere
         </h2>
         <fomr class="bhromaon__form">
-            <input type="search" class="bhromaon__form-text">
+            <input type="search" placeholder="Search Your Travel Destination" class="bhromaon__form-search">
             <button type="submit" class="bhromaon__form-button">
                 Search
-                <svg class="bhromaon__form-butto-svg">
+                <svg class="bhromaon__form-button-svg">
                     <use xlink:href="./img/sprite.svg#magnifier"></use>
                 </svg>
             </button>
@@ -43,24 +46,24 @@
                 <div class="menu__burger-line"></div>
             </label>
             <nav class="menu__nav">
-                <ul>
-                    <li class="menu__nav-block nav-block">
-                        <a href="" class="nav-block-link">
+                <ul class="menu__nav-ul">
+                    <li class="menu__nav-ul-block ul-block" id="who-we-are">
+                        <a href="#" class="ul-block-link">
                             Who we are
                         </a>
                     </li>
-                    <li class="menu__nav-block nav-block">
-                        <a href="" class="nav-block-link">
+                    <li class="menu__nav-ul-block ul-block" id="what-we-do">
+                        <a href="#" class="ul-block-link">
                             What we do
                         </a>
                     </li>
-                    <li class="menu__nav-block nav-block">
-                        <a href="" class="nav-block-link">
+                    <li class="menu__nav-ul-block ul-block" id="travel-with-us">
+                        <a href="#" class="ul-block-link">
                             Travel with us
                         </a>
                     </li>
-                    <li class="menu__nav-block nav-block">
-                        <a href="" class="nav-block-link">
+                    <li class="menu__nav-ul-block ul-block" id="contact-us">
+                        <a href="#" class="ul-block-link">
                             Contact us
                         </a>
                     </li>
@@ -83,67 +86,73 @@
             </article>
             <div class="choose__picture">
                 <div class="choose__picture-left">
-                    <img src="./img/Explore 1.png" alt="Explore 1" class="choose__picture-left-img">
+                    <img src="./img/Explore-1.png" alt="Explore 1" class="choose__picture-left-img">
                 </div>
                 <div class="choose__picture-right">
-                    <img src="./img/Explore 2.png" alt="Explore 2" class="choose__picture-right-img">
+                    <img src="./img/Explore-2.png" alt="Explore 2" class="choose__picture-right-img">
                 </div>
             </div>
         </section>
         <section class="instruction">
             <div class="instruction__content">
-                <svg class="instruction__content-svg">
-                    <use xlink:href="./img/sprite.svg#magnifier"></use>
-                </svg>
+                <div class="instruction__content-block">
+                    <svg class="instruction__content-block-svg" id="magnifier">
+                        <use xlink:href="./img/sprite.svg#magnifier"></use>
+                    </svg>
+                </div>
                 <h3 class="instruction__content-about">
                     Search Places
                 </h3>
             </div>
             <div class="instruction__content">
-                <svg class="instruction__content-svg">
-                    <use xlink:href="./img/sprite.svg#accept"></use>
-                </svg>
+                <div class="instruction__content-block">
+                    <svg class="instruction__content-block-svg" id="accept">
+                        <use xlink:href="./img/sprite.svg#accept"></use>
+                    </svg>
+                </div>
                 <h3 class="instruction__content-about">
                     Select Places
                 </h3>
             </div>
             <div class="instruction__content">
-                <svg class="instruction__content-svg">
-                    <use xlink:href="./img/sprite.svg#ok"></use>
-                </svg>
+                <div class="instruction__content-block">
+                    <svg class="instruction__content-block-svg" id="ok">
+                        <use xlink:href="./img/sprite.svg#ok"></use>
+                    </svg>
+                </div>
                 <h3 class="instruction__content-about">
                     Book & Enjoy
                 </h3>
             </div>
         </section>
         <section class="book book-first">
-            <article class="book-first__info">
-                <p class="book-first__info-country">
+            <article class="book__info">
+                <p class="book__info-country">
                     Spain
                 </p>
-                <h2 class="book-first__info-title">
+                <h2 class="book__info-title">
                     Grand spain madrid
                 </h2>
-                <p class="book-first__info-about">
+                <p class="book__info-about">
                     But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
                 </p>
-                <button class="book-first__info-button">
+                <button class="book__info-button">
                     Book now
                 </button>
             </article>
         </section>
         <section class="book book-second">
-            <article class="book-second__info">
-                <p class="book-second__info-country">
+            <article class="book__info">
+                <p class="book__info-country">
                     Spain
                 </p>
-                <h2 class="book-second__info-title">
+                <h2 class="book__info-title">
                     Grand spain madrid
                 </h2>
-                <p class="book-second__info-about">
+                <p class="book__info-about">
                     But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
                 </p>
-                <button class="book-second__info-button">
+                <button class="book__info-button">
                     Book now
                 </button>
             </article>
@@ -153,7 +162,9 @@
                 What our tourist say
             </h2>
             <article class="tourist__say">
-                <div class="tourist__say-picture"></div>
+                <div class="tourist__say-picture">
+                    <img src="./img/Tourist.png" alt="Tourist" class="tourist__say-picture-img">
+                </div>
                 <div class="tourist__say-info say-info">
                     <h3 class="say-info__name">
                         Sam Sumon
@@ -176,24 +187,28 @@
             Safe travel anywhere
         </p>
         <nav class="footer__social">
-            <a href="" class="footer__social-link">
-                <svg class="footer__social-link-svg">
+            <a href="https://facebook.com/" target="blank" class="footer__social-link">
+                <svg class="footer__social-link-svg" id="facebook">
                     <use xlink:href="./img/sprite.svg#facebook"></use>
                 </svg>
-            </a><a href="" class="footer__social-link">
-                <svg class="footer__social-link-svg">
+            </a>
+            <a href="https://twitter.com/" target="blank" class="footer__social-link">
+                <svg class="footer__social-link-svg" id="twitter">
                     <use xlink:href="./img/sprite.svg#twitter"></use>
                 </svg>
-            </a><a href="" class="footer__social-link">
-                <svg class="footer__social-link-svg">
+            </a>
+            <a href="https://www.linkedin.com/" target="blank" class="footer__social-link">
+                <svg class="footer__social-link-svg" id="linkedin">
                     <use xlink:href="./img/sprite.svg#linkedin"></use>
                 </svg>
-            </a><a href="" class="footer__social-link">
-                <svg class="footer__social-link-svg">
+            </a>
+            <a href="https://www.youtube.com/" target="blank" class="footer__social-link">
+                <svg class="footer__social-link-svg" id="youtube">
                     <use xlink:href="./img/sprite.svg#youtube"></use>
                 </svg>
-            </a><a href="" class="footer__social-link">
-                <svg class="footer__social-link-svg">
+            </a>
+            <a href="https://www.pinterest.com/" target="blank" class="footer__social-link">
+                <svg class="footer__social-link-svg" id="pinterest">
                     <use xlink:href="./img/sprite.svg#pinterest"></use>
                 </svg>
             </a>
